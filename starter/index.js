@@ -3,14 +3,6 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// 1. Come up with README.md file structure
-// 2. decide what questions to ask and the question format
-// 3. Handle the user input 
-// 4. Generate the README.md
-// 5. Write to README.md file
-
-
-// array of questions for user
 const questions = [  
         {
             type: 'input',
