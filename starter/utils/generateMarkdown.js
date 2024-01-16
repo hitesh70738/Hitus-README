@@ -12,7 +12,7 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [Licence](#licence)
-  - [Contribution](#contributing)
+  - [Contribution](#contribution)
   - [Tests](#tests)
   - [Questions](#questions)
   
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ${data.usage}
   
 
-  ## Licences
+  ## Licence
   The licences held are <strong>${data.licence}</strong> 
   [![License: MIT](https://img.shields.io/badge/License-${data.licence}-yellow.svg)](https://opensource.org/licenses/${data.licence})
 
