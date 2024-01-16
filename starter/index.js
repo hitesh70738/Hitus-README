@@ -11,8 +11,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // array of questions for user
-const questions = [
-    inquirer.prompt([
+const questions = [  
         {
             type: 'input',
             name: 'title',
@@ -36,7 +35,7 @@ const questions = [
         {
             type: 'list',
             name: 'licence',
-            message: 'What licence do you hold?'
+            message: 'What licence do you hold?',
             choices: ['MIT', 'Apache 2.0']
         },
         {
@@ -47,7 +46,7 @@ const questions = [
         {
             type: 'input',
             name: 'test',
-            message: 'What are the test instruction?'
+            message: 'What are the testing commands for the project?'
         },
         {
             type: 'input',
@@ -59,7 +58,6 @@ const questions = [
             name: 'email',
             message: 'Enter your email?'
         },
-    ])
 ];
 
 // function to write README file
@@ -72,12 +70,12 @@ function writeToFile(filename, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-        .then((questions) => {
-            writeToFile('README.md', userResponses );
+        .then((userResponses) => {
+            writeToFile('README.md', userResponses);
         })
         .catch((error) => {
-            console.log('eror')
-        })
+            console.log('error', error);
+        });
 
 }
 
