@@ -36,7 +36,7 @@ const questions = [
             type: 'list',
             name: 'licence',
             message: 'What licence do you hold?',
-            choices: ['MIT', 'Apache 2.0']
+            choices: ['MIT', 'ISC', 'Boost', 'MPL', 'None']
         },
         {
             type: 'input',
