@@ -1,46 +1,46 @@
 
-  # [![License: MIT](https://img.shields.io/badge/License-Boost-yellow.svg)](https://opensource.org/licenses/Boost)
+  # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # A
+  # make money
 
   ## Description 
-  A
+  If you want money follow this page
   
   ## Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Licence](#licence)
-  - [Contribution](#contributing)
+  - [Contribution](#contribution)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation  
   How to install:
-  
+  get a card and follow the steps in installation
   
   ## Usage
-  A
+  make money
   
 
-  ## Licences
-  The licences held are <strong>Boost</strong> 
-  [![License: MIT](https://img.shields.io/badge/License-Boost-yellow.svg)](https://opensource.org/licenses/Boost)
+  ## Licence
+  The licences held are <strong>MIT</strong> 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   
   
 
   ## Contribution
-  <strong>A</strong>, has contributed to the project.
+  <strong>whoever help make sure to pay them</strong>, has contributed to the project.
   
 
   ## Tests
   The testing comands for the project are: 
   ~~~
-  A
+  python3 -make some money
   ~~~
 
   ## Questions
   For more information reach out to me on the following: <br>
-  Github: [A](www.github.com/A)
-  Email: [A](A)
+  Github: [hitesh70738](www.github.com/hitesh70738)
+  Email: [abc@gmail.com](abc@gmail.com)
   
